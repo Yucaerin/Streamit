@@ -1,18 +1,18 @@
 # 🚀 Streamit WordPress Theme - Subscriber File Upload to RCE  
 
-📌 **Product Information**
-Platform: WordPress (Theme: Streamit)  
-Affected Feature: Profile Avatar Upload  
-Tested Vulnerability: Arbitrary PHP File Upload (Subscriber+)  
-CVE: Not Assigned  
-Severity: High (Authenticated File Upload => Remote Code Execution)  
-CWE ID: CWE-434  
-CWE Name: Unrestricted Upload of File with Dangerous Type  
-Patched: ❌ Not Applicable  
-Patch Priority: 🔴 High  
-Date Published: June 12, 2025  
-Researcher: Grac3  
-Link Product: https://themeforest.net/item/streamit-video-streaming-wordpress-theme/29772881  
+📌 **Product Information**    
+**Platform:**: WordPress (Theme: Streamit)  
+**Affected Feature**: Profile Avatar Upload  
+**Tested Vulnerability**: Arbitrary PHP File Upload (Subscriber+)  
+**CVE**: Not Assigned  
+**Severity**: High (Authenticated File Upload => Remote Code Execution)  
+**CWE ID**: CWE-434  
+**CWE Name**: Unrestricted Upload of File with Dangerous Type  
+**Patched**: ❌ Not Applicable  
+**Patch Priority**: 🔴 High  
+**Date Published**: June 12, 2025  
+**Researcher**: Grac3  
+**Link Product**: https://themeforest.net/item/streamit-video-streaming-wordpress-theme/29772881  
 
 ---
 
