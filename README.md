@@ -1,6 +1,6 @@
 # 🚀 Streamit WordPress Theme - Subscriber File Upload to RCE  
 
-📌 **📌 Product Information **  
+📌 **Product Information**
 Platform: WordPress (Theme: Streamit)  
 Affected Feature: Profile Avatar Upload  
 Tested Vulnerability: Arbitrary PHP File Upload (Subscriber+)  
@@ -16,7 +16,7 @@ Link Product: https://themeforest.net/item/streamit-video-streaming-wordpress-th
 
 ---
 
-⚠️ Summary of the Vulnerability  
+⚠️ **Summary of the Vulnerability**  
 The Streamit WordPress Theme allows logged-in users with *subscriber* role to change their avatar via the following endpoint:
 
 example :
@@ -60,7 +60,7 @@ update-avatar
 ------WebKitFormBoundaryKW4qPnvjzFXSGYQM--
 ```
 
-**📁 File Upload Behavior  **
+📁 **File Upload Behavior**
 - The uploaded file must include the parameter `update_avatar` to be processed.
 - Upon success, the file is saved in:
 
@@ -68,7 +68,7 @@ update-avatar
 /wp-content/uploads/[year]/[month]/bq.php
 ```
 
-**✅ Indicators of Success:**
+✅ **Indicators of Success:**
 - Status HTTP/2 200 OK
 - Visiting `/wp-content/uploads/2025/06/bq.php` will execute the payload and print `HELLO WORLD`.
 
